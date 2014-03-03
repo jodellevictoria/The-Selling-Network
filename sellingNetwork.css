@@ -1,0 +1,97 @@
+html {
+	position: absolute;
+	min-height: 100%;
+}
+
+body {
+	margin: 0 0 40px;
+}
+header { 
+	background: black;
+}
+section {
+	padding: 10px;
+//	background: #fafafa;
+}
+footer {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+//	height: 40px;
+	width: 100%;
+	background: #696969;
+	color: white;
+}
+input {
+	border-color: black;
+	background-image: url("search-icon.png");
+	background-size:25px 15px;
+	background-repeat: no-repeat;
+	text-indent: 24px;
+}
+
+form {
+	display : inline-block;
+	vertical-align: middle;
+	float: right;
+	padding-right: 2%;
+}
+
+li {
+	display: block;
+	float: left;
+	margin-right: 30px;
+	color: white;
+}
+
+ul {
+	display : inline-block;
+	vertical-align: middle;
+	float: right;
+}
+
+.title {
+	display : inline-block;
+	vertical-align: middle;
+	color: white;
+	font-size: 16px;
+	padding-left: 5%;
+}
+
+table {
+	font-size: 14px;
+//	border-collapse: collapse;
+	border-spacing: 0;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.description {
+	text-align : left;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+a:link { color: white; }
+a:visited { color: white; }
+a:active { color: white; }
+a:hover { color: white; }
+
+a.menu:link { color: white; }
+a.menu:visited { color: red; }
+a.menu:active { color: white; }
+a.menu:hover { color: white; }
+
+td {
+	border-bottom: 1px solid #f1f1f1;
+	padding: 10px;
+	text-align : center;
+}
+
+.hot {
+	border: 1px solid #f1f1f1;
+	border-bottom: 0;
+}
