@@ -5,7 +5,7 @@ html {
 
 body {
 	margin: 0 0 50px;
-	font-size: 14px;
+	font-size: 16px;
 }
 header { 
 	background: black;
@@ -15,6 +15,9 @@ header {
 	border: 1px solid #f1f1f1;
 }
 
+.sell {
+	margin-top: 22px;
+}
 section {
 	padding: 10px;
 }
@@ -75,7 +78,8 @@ table {
 }
 
 .user {
-	color: green;
+	color: #6666ff;
+	font-weight: bold;
 }
 
 a {
