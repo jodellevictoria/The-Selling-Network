@@ -30,7 +30,7 @@ footer {
 	background: #696969;
 	color: white;
 }
-.search {
+.searchInput {
 	border-color: black;
 	background-image: url("search-icon.png");
 	background-size:25px 15px;
@@ -38,7 +38,7 @@ footer {
 	text-indent: 24px;
 }
 
-form {
+.searchForm {
 	display : inline-block;
 	vertical-align: middle;
 	float: right;
@@ -73,6 +73,21 @@ table {
 	margin-right: 2%;
 }
 
+td {
+	border-bottom: 1px solid #f1f1f1;
+	padding: 10px;
+	text-align : center;
+}
+
+.hot {
+	border: 1px solid #f1f1f1;
+	border-bottom: 0;
+}
+
+.next {
+	margin-top: 10px;
+}
+
 .description {
 	text-align : left;
 }
@@ -95,18 +110,3 @@ a.menu:link { color: white; }
 a.menu:visited { color: white; }
 a.menu:active { color: white; }
 a.menu:hover { color: white; }
-
-td {
-	border-bottom: 1px solid #f1f1f1;
-	padding: 10px;
-	text-align : center;
-}
-
-.hot {
-	border: 1px solid #f1f1f1;
-	border-bottom: 0;
-}
-
-.next {
-	margin-top: 10px;
-}

@@ -4,15 +4,26 @@
 		<meta charset="utf-8">
 		<title> The Selling Network </title>
 		<link rel="stylesheet" href="sellingNetwork.css" />
+		<style>
+			.signin {
+				margin: 25%;
+				border: 1px solid black;
+				border-radius: 5px;
+			}
+			td {
+				border-bottom: 1px solid black;
+				text-align : left;
+			}
+		</style
 	</head>
 	<body>
 	<header>
 		<p class='title'>
 			<a href='index.html'> The Selling Network </a>
 		</p>
-		<form method="post" action="">
+		<form method="post" action="" class='searchForm'>
 			<p>
-				<input class='search' placeholder="search" type="text" />
+				<input class='searchInput' placeholder="search" type="text" />
 			</p>
 		</form>
 		<ul>
@@ -23,6 +34,28 @@
 		</ul>
 	</header>
 	<body>
+		<section class='signin'>
+			 <p> Connexion </p>
+			<hr>
+
+			<form method="post" action="">
+				<p>
+					<label> <strong> Username </strong> <label>
+					<input name="username" id="username" type='text' />
+				</p>
+			</form>
+			<form method="post" action="">
+				<p>
+					<strong> Password </strong>
+					<input name="password" id="password" type='text' />
+				</p>
+			</form>
+			<form method="post" action="">
+				<p>
+					<input type='submit' value='connexion'>
+				</p>
+			</form>
+		</section>
 		<footer>
 			Créé par Rafael Prévost-Rivero, Maxime Chagnon et Mikael Chicoine
 		</footer>
