@@ -16,13 +16,14 @@ header {
 	border: 1px solid #f1f1f1;
 }
 
+section {
+	padding: 10px;
+}
+
 .sell {
 	margin: 25px;
 }
 
-section {
-	padding: 10px;
-}
 footer {
 	position: absolute;
 	left: 0px;
@@ -94,6 +95,10 @@ td {
 	text-align : left;
 }
 
+.viewSell {
+	text-align : right;
+}
+
 .user {
 	color: #6666ff;
 	font-weight: bold;
@@ -103,10 +108,10 @@ a {
 	text-decoration: none;
 }
 
-a:link { color: white; }
-a:visited { color: white; }
-a:active { color: white; }
-a:hover { color: white; }
+a.titleA:link { color: white; }
+a.titleA:visited { color: white; }
+a.titleA:active { color: white; }
+a.titleA:hover { color: white; }
 
 a.menu:link { color: white; }
 a.menu:visited { color: white; }
