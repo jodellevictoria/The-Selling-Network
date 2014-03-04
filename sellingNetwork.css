@@ -1,10 +1,11 @@
 html {
-	position: absolute;
+	position: relative;
 	min-height: 100%;
 }
 
 body {
-	margin: 0 0 40px;
+	margin: 0 0 50px;
+	font-size: 14px;
 }
 header { 
 	background: black;
@@ -58,8 +59,7 @@ ul {
 	display : inline-block;
 	vertical-align: middle;
 	color: white;
-	font-size: 16px;
-	padding-left: 5%;
+	padding-left: 2%;
 }
 
 table {
@@ -74,6 +74,9 @@ table {
 	text-align : left;
 }
 
+.user {
+	color: green;
+}
 
 a {
 	text-decoration: none;
@@ -85,7 +88,7 @@ a:active { color: white; }
 a:hover { color: white; }
 
 a.menu:link { color: white; }
-a.menu:visited { color: red; }
+a.menu:visited { color: white; }
 a.menu:active { color: white; }
 a.menu:hover { color: white; }
 
