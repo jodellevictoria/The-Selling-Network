@@ -7,9 +7,59 @@ body {
 	margin: 0 0 50px;
 	font-size: 16px;
 }
+
+a {
+	text-decoration: none;
+}
+
 header {
 	background: black;
 }
+
+header a:link { color: white; }
+header a:visited { color: white; }
+header a:active { color: white; }
+header a:hover { color: white; }
+
+.title {
+	display : inline-block;
+	vertical-align: middle;
+	color: white;
+	padding-left: 2%;
+}
+
+nav {
+	display : inline-block;
+	vertical-align: middle;
+	float: right;
+	text-align: right;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 30px;
+	color: white;
+}
+
+nav ul {
+	liste-style-type: none;
+}
+
+.searchInput {
+	border-color: black;
+	background-image: url("search-icon.png");
+	background-size:25px 15px;
+	background-repeat: no-repeat;
+	text-indent: 24px;
+}
+
+.searchForm {
+	display : inline-block;
+	vertical-align: middle;
+	float: right;
+	padding-right: 2%;
+}
+
 .help {
 	margin : 40px;
 	margin-bottom: 0;
@@ -32,44 +82,6 @@ footer {
 	width: 100%;
 	background: #696969;
 	color: white;
-}
-.searchInput {
-	border-color: black;
-	background-image: url("search-icon.png");
-	background-size:25px 15px;
-	background-repeat: no-repeat;
-	text-indent: 24px;
-}
-
-.searchForm {
-	display : inline-block;
-	vertical-align: middle;
-	float: right;
-	padding-right: 2%;
-}
-
-nav {
-	display : inline-block;
-	vertical-align: middle;
-	float: right;
-	text-align: right;
-}
-
-nav li {
-	display: inline-block;
-	margin-right: 30px;
-	color: white;
-}
-
-nav ul {
-	liste-style-type: none;
-}
-
-.title {
-	display : inline-block;
-	vertical-align: middle;
-	color: white;
-	padding-left: 2%;
 }
 
 table {
@@ -107,17 +119,3 @@ td {
 	color: #6666ff;
 	font-weight: bold;
 }
-
-a {
-	text-decoration: none;
-}
-
-a.titleA:link { color: white; }
-a.titleA:visited { color: white; }
-a.titleA:active { color: white; }
-a.titleA:hover { color: white; }
-
-a.menu:link { color: white; }
-a.menu:visited { color: white; }
-a.menu:active { color: white; }
-a.menu:hover { color: white; }
