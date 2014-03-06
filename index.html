@@ -4,6 +4,26 @@
 		<meta charset="utf-8">
 		<title> The Selling Network </title>
 		<link rel="stylesheet" href="sellingNetwork.css" />
+
+		<script type="text/javascript">
+			function changeBorder(el) {
+				var objHotdocument = document.getElementById('hot')
+				var objWeekdocument = document.getElementById('week')
+				var objMonthdocument = document.getElementById('month')
+
+				objHotdocument.style.border="0px"
+				objHotdocument.style.borderBottom="1px solid #f1f1f1"
+
+				objWeekdocument.style.border="0px"
+				objWeekdocument.style.borderBottom="1px solid #f1f1f1"
+
+				objMonthdocument.style.border="0"
+				objMonthdocument.style.borderBottom="1px solid #f1f1f1"
+
+				el.style.border="1px solid #f1f1f1";
+				el.style.borderBottom="0px";
+			}
+		</script>
 	</head>
 	<body>
 	<header>
@@ -42,9 +62,9 @@
 					<td width='70%'> </td>
 					<td> </td>
 					<td> </td>
-					<td class='hot' onclick=""> hot </td>
-					<td onclick=""> week </td>
-					<td onclick=""> month </td>
+					<td id='hot' class='hot' onmouseover="this.style.cursor='pointer'" onclick="changeBorder(this)"> hot </a> </td>
+					<td id='week' class='week' onmouseover="this.style.cursor='pointer'" onclick="changeBorder(this)"> week </a> </td>
+					<td id='month' class='mounth' onmouseover="this.style.cursor='pointer'" onclick="changeBorder(this)"> month </td>
 				</tr>
 			</thead>
 			<tbody>
