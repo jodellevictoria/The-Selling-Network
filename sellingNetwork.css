@@ -20,7 +20,7 @@ header {
 header a:link { color: white; }
 header a:visited { color: white; }
 header a:active { color: white; }
-header a:hover { color: white; }
+header a:hover { background-color: #505050; }
 
 .title {
 	display : inline-block;
@@ -85,30 +85,37 @@ footer {
 	color: white;
 }
 
-table {
+.mainTable {
 	font-size: 14px;
-//	border-collapse: collapse;
 	border-spacing: 0;
-//	margin-left: 2%;
-//	margin-right: 2%;
 }
 
 td {
-	border-bottom: 1px solid #f1f1f1;
 	padding: 10px;
+}
+
+.mainTd {
+	border-bottom: 1px solid #f1f1f1;
 	text-align : center;
 }
 
 .hot {
 	border: 1px solid #f1f1f1;
 	border-bottom: 0;
+	font-weight: bold;
 }
+
+.week { border-bottom: 1px solid #f1f1f1;}
+
+.month { border-bottom: 1px solid #f1f1f1;}
 
 .next {
 	margin-top: 10px;
 }
 
 .description {
+	padding: 10px;
+	border-bottom: 1px solid #f1f1f1;
 	text-align : justify;
 }
 
