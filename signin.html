@@ -5,15 +5,16 @@
 		<title> The Selling Network </title>
 		<link rel="stylesheet" href="sellingNetwork.css" />
 		<style>
-			.signin {
-				margin-top: 25%;
-				width: 40%;
-				border: 1px solid black;
-				border-radius: 5px;
+			section {
+				width: 25%;
+				margin-top: 100px;
 			}
-			td {
-				border-bottom: 1px solid black;
-				text-align : left;
+			table { 
+				border: 1px solid #f1f1f1;
+				border-radius: 10px;
+			}
+			.thead {
+				border-bottom: 1px solid #f1f1f1;
 			}
 		</style
 	</head>
@@ -38,27 +39,35 @@
 			</form>
 		</header>
 		<section class='signin'>
-			 <p> Connexion </p>
-			<hr>
-
-			<form method="post" action="">
-				<p>
-					<label> <strong> Username </strong> <label>
-					<input name="username" id="username" type='text' />
-				</p>
-			</form>
-			<form method="post" action="">
-				<p>
-					<strong> Password </strong>
-					<input name="password" id="password" type='text' />
-				</p>
-			</form>
-			<form method="post" action="">
-				<p>
-					<input type='submit' value='connexion'>
-				</p>
-			</form>
+		<table>
+			<tr>
+				<td class='thead'>
+			 		<p> Connexion </p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<form method="post" action="">
+						<p>
+							<label> <strong> Username </strong> <label>
+							<input name="username" id="username" type='text' />
+						</p>
+					</form>
+					<form method="post" action="">
+						<p>
+							<strong> Password </strong>
+							<input name="password" id="password" type='text' />
+						</p>
+					</form>
+					<form method="post" action="">
+						<p>
+							<input type='submit' value='connexion'>
+						</p>
+					</form>
+				</td>
+			</tr>
 		</section>
+		<table>
 		<footer>
 			Créé par Rafael Prévost-Rivero, Maxime Chagnon et Mikael Chicoine
 		</footer>

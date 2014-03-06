@@ -90,24 +90,22 @@ footer {
 	border-spacing: 0;
 }
 
-td {
-	padding: 10px;
-}
-
 .mainTd {
 	border-bottom: 1px solid #f1f1f1;
 	text-align : center;
+	padding: 10px;
 }
 
 .hot {
 	border: 1px solid #f1f1f1;
 	border-bottom: 0;
 	font-weight: bold;
+	padding: 10px;
 }
 
-.week { border-bottom: 1px solid #f1f1f1;}
+.week { border-bottom: 1px solid #f1f1f1; padding: 10px;}
 
-.month { border-bottom: 1px solid #f1f1f1;}
+.month { border-bottom: 1px solid #f1f1f1; padding: 10px;}
 
 .next {
 	margin-top: 10px;
