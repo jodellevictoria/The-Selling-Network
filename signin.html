@@ -6,17 +6,32 @@
 		<link rel="stylesheet" href="sellingNetwork.css" />
 		<style>
 			section {
-				width: 25%;
+				width: 35%;
 				margin-top: 100px;
+				margin-bottom: 100px;
 			}
 			table { 
 				border: 1px solid #f1f1f1;
 				border-radius: 10px;
 			}
+			td {
+				padding: 15px;
+			}
 			.thead {
+				padding: 0px;
+				border-top-left-radius: 10px;
+				border-top-right-radius: 10px;
+				text-align: center;
+				color: white;
+				font-weight: bold;
+				background-color: black;
 				border-bottom: 1px solid #f1f1f1;
 			}
-		</style
+			.userLogin {
+				width: 350px;
+				height: 30px;
+			}
+		</style>
 	</head>
 	<body>
 		<header>
@@ -49,14 +64,16 @@
 				<td>
 					<form method="post" action="">
 						<p>
-							<label> <strong> Username </strong> <label>
-							<input name="username" id="username" type='text' />
+							<label> <strong> Username </strong> </label>
+							<br />
+							<input name="username" id="username" class='userLogin' type='text' />
 						</p>
 					</form>
 					<form method="post" action="">
 						<p>
-							<strong> Password </strong>
-							<input name="password" id="password" type='text' />
+							<label> <strong> Password </strong> </label>
+							<br />
+							<input name="password" id="password" class='userLogin' type='password' />
 						</p>
 					</form>
 					<form method="post" action="">
