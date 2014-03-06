@@ -101,11 +101,20 @@ footer {
 	border-bottom: 0;
 	font-weight: bold;
 	padding: 10px;
+	text-align: center;
 }
 
-.week { border-bottom: 1px solid #f1f1f1; padding: 10px;}
+.week { 
+	border-bottom: 1px solid #f1f1f1;
+	padding: 10px;
+	text-align: center
+}
 
-.month { border-bottom: 1px solid #f1f1f1; padding: 10px;}
+.month { 
+	border-bottom: 1px solid #f1f1f1;
+	padding: 10px;
+	text-align: center;
+}
 
 .next {
 	margin-top: 10px;
