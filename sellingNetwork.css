@@ -6,7 +6,7 @@ html {
 
 body {
 	margin: 0 0 50px;
-	font-size: 16px;
+	font-size: 14px;
 	font-family:"Verdana", Geneva, san-serif;
 }
 
@@ -16,6 +16,8 @@ a {
 
 header {
 	background: black;
+	font-weight: bold;
+	color: white;
 }
 
 header a:link { color: white; }
@@ -27,7 +29,6 @@ header a:hover { background-color: #505050; }
 	display : inline-block;
 	width: 20%;
 	margin: auto;
-	color: white;
 	text-align: right;
 }
 
@@ -41,7 +42,6 @@ nav {
 nav li {
 	display: inline-block;
 	margin-right: 30px;
-	color: white;
 }
 
 nav ul {
