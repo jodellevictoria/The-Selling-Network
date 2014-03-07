@@ -63,6 +63,8 @@ header form {
 .help {
 	margin-top : 40px;
 	margin-bottom: 0;
+	padding: 10px;
+	border-radius: 5px;
 	border: 1px solid #f1f1f1;
 }
 
@@ -84,6 +86,7 @@ footer {
 	width: 100%;
 	background: #696969;
 	color: white;
+	text-align: center;
 }
 
 .mainTable {
@@ -108,7 +111,7 @@ footer {
 .week { 
 	border-bottom: 1px solid #f1f1f1;
 	padding: 10px;
-	text-align: center
+	text-align: center;
 }
 
 .month { 
@@ -132,6 +135,6 @@ footer {
 }
 
 .user {
-	color: #6666ff;
+	color: #006699;
 	font-weight: bold;
 }
