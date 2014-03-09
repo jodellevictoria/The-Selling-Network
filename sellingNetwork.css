@@ -147,13 +147,15 @@ footer {
 	width: 250px;
 	background-color: black;
 	color: white;
+	border: 0;
 	border-radius: 5px;
 	visibility: hidden;
 }
 
 .formQuickReply {
 //	text-align: left;
-//	width: 250px;
+//	box-sizing: content-box;
+	width: 230px;
 }
 
 .exitQuick {
