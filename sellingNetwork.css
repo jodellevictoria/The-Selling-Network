@@ -8,6 +8,8 @@ body {
 	margin: 0 0 50px;
 	font-size: 14px;
 	font-family:"Verdana", Geneva, san-serif;
+	background-color: #f1f1f1;
+//	background-color: #ffffff;
 }
 
 a {
@@ -66,6 +68,7 @@ header form {
 //	padding: 10px;
 	border-radius: 5px;
 	border: 1px solid #f1f1f1;
+	background-color: #ffffff;
 }
 
 section {
@@ -92,30 +95,31 @@ footer {
 .mainTable {
 	font-size: 14px;
 	border-spacing: 0;
+	background-color: #ffffff;
 }
 
 .mainTd {
-	border-bottom: 1px solid #f1f1f1;
+	border-bottom: 1px solid #fafafa;
 	text-align : center;
 	padding: 10px;
 }
 
+thead {
+	background-color: #f1f1f1;
+}
 .hot {
-	border: 1px solid #f1f1f1;
-	border-bottom: 0;
+	background-color: white;
 	font-weight: bold;
 	padding: 10px;
 	text-align: center;
 }
 
 .week { 
-	border-bottom: 1px solid #f1f1f1;
 	padding: 10px;
 	text-align: center;
 }
 
 .month { 
-	border-bottom: 1px solid #f1f1f1;
 	padding: 10px;
 	text-align: center;
 }
