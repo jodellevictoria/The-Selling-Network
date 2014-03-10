@@ -9,7 +9,6 @@ body {
 	font-size: 14px;
 	font-family:"Verdana", Geneva, san-serif;
 	background-color: #f1f1f1;
-//	background-color: #ffffff;
 }
 
 a {
@@ -95,11 +94,11 @@ footer {
 .mainTable {
 	font-size: 14px;
 	border-spacing: 0;
-	background-color: #ffffff;
+	background-color: white;
 }
 
 .mainTd {
-	border-bottom: 1px solid #fafafa;
+	border-bottom: 1px solid #f1f1f1;
 	text-align : center;
 	padding: 10px;
 }
@@ -132,6 +131,10 @@ thead {
 	padding: 10px;
 	border-bottom: 1px solid #f1f1f1;
 	text-align : justify;
+}
+
+#last {
+	border-bottom: 0;
 }
 
 .viewSell {
