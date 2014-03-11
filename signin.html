@@ -10,11 +10,13 @@
 				margin-bottom: 100px;
 			}
 			table { 
-				border: 1px solid #f1f1f1;
+				border: 0;
 				border-radius: 10px;
 			}
 			td {
 				padding: 15px;
+				border: 0;
+				background-color: #ffffff;
 			}
 			.thead {
 				padding: 0px;
@@ -24,7 +26,8 @@
 				color: white;
 				font-weight: bold;
 				background-color: black;
-				border-bottom: 1px solid #f1f1f1;
+				border: 0;
+			//	border-bottom: 1px solid #f1f1f1;
 			}
 			.userLogin {
 				width: 350px;
@@ -39,18 +42,16 @@
 					<a href='index.html'> The Selling Network </a>
 				</p>
 
-				<form class='searchForm' method="post" action="">
-					<p>
-						<input class='searchInput' placeholder="search" type="text" />
-					</p>
-				</form>
-
 				<nav>
 					<ul>
 						<li> <a href='signup.html'> S'inscrire </a> </li>
 						<li> <a href='signin.html'> Connexion </a> </li>
 						<li> <a href='tour.html'> Tour </a> </li>
 						<li> <a href='help.html'> Aide </a> </li>
+						<li>
+							<form class='searchForm' method="post" action="">
+							<input class='searchInput' placeholder="search" type="text" />
+						</li>
 					</ul>
 				</nav>
 			</div>

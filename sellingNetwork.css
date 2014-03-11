@@ -56,11 +56,6 @@ header input {
 	text-indent: 24px;
 }
 
-header form {
-	position: relative;
-	float: right;
-}
-
 .help {
 	margin-top : 40px;
 	margin-bottom: 0;
