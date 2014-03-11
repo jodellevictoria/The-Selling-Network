@@ -6,7 +6,7 @@ html {
 
 body {
 	margin: 0 0 50px;
-	font-size: 12px;
+	font-size: 14px;
 	font-family:"Calibri", monospace;
 	background-color: #f1f1f1;
 }
@@ -169,7 +169,7 @@ thead {
 	text-align: right;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
 	section { width: 100%; }
 	.content { width: 100%; margin: auto;}	
 }
