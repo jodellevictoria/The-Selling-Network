@@ -33,7 +33,7 @@ header a:visited { color: white; }
 header a:active { color: white; }
 header a:hover { background-color: #505050; }
 
-.content { width : 80%; margin: auto}
+.content { width : 70%; margin: auto}
 
 .title {
 	position: relative;
@@ -73,7 +73,7 @@ header input {
 
 section {
 //	padding: 10px;
-	width: 80%;
+	width: 70%;
 	margin: auto;
 }
 
@@ -95,37 +95,51 @@ footer {
 .mainTable {
 	font-size: 14px;
 	border-spacing: 0;
-	background-color: white;
-	border-collapse: separate;
 }
 
 .mainTd {
+	background-color: white;
+	border-top: 1px solid #d3d3d3;
 	border-bottom: 1px solid #d3d3d3;
 	text-align : center;
 	padding: 10px;
 }
 
+.topTd { border-top: 0 }
+
+.separator {padding: 4px; }
+
+.tdBorderLeft {
+	border-left: 1px solid #d3d3d3;
+}
+
+.tdBorderRight {
+	border-right: 1px solid #d3d3d3;
+}
+
 thead {
 	background-color: #f1f1f1;
 }
-.hot {
+
+.headTd { border-bottom: 1px solid #d3d3d3; }
+
+.tableActive {
 	background-color: white;
 	font-weight: bold;
 	padding: 10px;
 	text-align: center;
-	border: 1px solid #d3d3d3;
-	border-bottom: 0;
+	border: 1px solid #d3d3d3; 
+	border-bottom: 0; 
 }
 
-.week { 
+.tableInactive {
+	background-color: #f1f1f1;
+	font-weight: normal;
 	padding: 10px;
 	text-align: center;
+	border-bottom: 1px solid #d3d3d3;
 }
 
-.month { 
-	padding: 10px;
-	text-align: center;
-}
 
 .next {
 	margin-top: 10px;
@@ -134,10 +148,6 @@ thead {
 .description {
 	padding: 10px;
 	text-align : justify;
-}
-
-#last {
-	border-bottom: 0;
 }
 
 .viewSell {
